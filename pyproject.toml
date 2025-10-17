@@ -36,8 +36,7 @@ dependencies = [
     "jaxtyping",
     "triton",
     "gsplat",
-    "pypose @ git+https://github.com/pypose/pypose.git@bae",
-    "fused-ssim @ git+https://github.com/rahul-goel/fused-ssim",
+    "pypose @ git+https://github.com/pypose/pypose.git@bae"
 ]
 
 # [project.urls]
@@ -50,4 +49,5 @@ ins-gs = "instantsfm.scripts.gs:entrypoint"
 ins-vis = "instantsfm.scripts.vis_recon:entrypoint"
 
 [tool.setuptools.packages.find]
+
 include = ["instantsfm*"]
