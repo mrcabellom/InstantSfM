@@ -18,7 +18,7 @@ def run_sfm():
     parser.add_argument('--manual_config_name', help='Name of the manual configuration file')
     mapper_args = parser.parse_args()
 
-    path_info = ReadData(mapper_args.data)
+    path_info = ReadData(mapper_args.data_path)
     if not path_info:
         print('Invalid data path, please check the provided path')
         return
