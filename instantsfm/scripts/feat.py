@@ -13,7 +13,7 @@ def run_feature_handler():
     parser.add_argument('--feature_handler', choices=handler_types, default='colmap', help='Feature handling method to use')
     handler_args = parser.parse_args()
 
-    path_info = ReadData(handler_args.data)
+    path_info = ReadData(handler_args.data_path)
     if not path_info:
         print('Invalid data path, please check the provided path')
         return
