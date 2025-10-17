@@ -9,7 +9,7 @@ from instantsfm.controllers.reconstruction_visualizer import ReconstructionVisua
 
 def run_sfm():
     parser = ArgumentParser()
-    parser.add_argument('--data', required=True, help='Path to the data folder')
+    parser.add_argument('--data_path', required=True, help='Path to the data folder')
     parser.add_argument('--enable_gui', action='store_true', help='Enable GUI for visualization')
     parser.add_argument('--record_recon', action='store_true', help='Save reconstruction data at each step')
     parser.add_argument('--record_path', default=None, help='Path to save the recorded reconstruction data')
@@ -57,4 +57,5 @@ def entrypoint():
     run_sfm()
     
 if __name__ == '__main__':
+
     entrypoint()
