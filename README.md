@@ -127,4 +127,5 @@ While the default configuration should work for most cases, you can also try to 
 Want to apply several modifications to config files while keeping the original ones? Add the `--manual_config_name` argument and specify the name of your own config file. For example, if you created a new config file `config/my_config.py`, add `--manual_config_name my_config` to the command line. Please make sure the config file is a valid one, the recommended way is to copy an original config file and modify it.  
 
 
-**Acknowledgments**: We thank the following great works [COLMAP](https://github.com/colmap/colmap), [GLOMAP](https://github.com/colmap/glomap), [VGGT](https://github.com/facebookresearch/vggt), [VGGSfM](https://github.com/facebookresearch/vggsfm) for their codes. And we would like Linfei Pan for the help.
+**Acknowledgments**: We thank the following great works [COLMAP](https://github.com/colmap/colmap), [GLOMAP](https://github.com/colmap/glomap), [VGGT](https://github.com/facebookresearch/vggt), [VGGSfM](https://github.com/facebookresearch/vggsfm) for their code. We would like to thank Linfei Pan for the help.
+
