@@ -6,7 +6,7 @@ from instantsfm.controllers.data_reader import ReadData, PathInfo
 
 def run_gaussian_splatting():
     parser = ArgumentParser()
-    parser.add_argument('--data', required=True, help='Path to the data folder')
+    parser.add_argument('--data_path', required=True, help='Path to the data folder')
     gs_args = parser.parse_args()
 
     path_info = ReadData(gs_args.data)
@@ -27,4 +27,5 @@ def entrypoint():
     run_gaussian_splatting()
 
 if __name__ == '__main__':
+
     entrypoint()

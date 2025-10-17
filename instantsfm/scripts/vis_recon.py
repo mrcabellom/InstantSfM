@@ -7,7 +7,7 @@ from instantsfm.controllers.reconstruction_visualizer import OfflinePlayer
 
 def run_vis():
     parser = ArgumentParser()
-    parser.add_argument('--data', required=True, help='Path to the data folder')
+    parser.add_argument('--data_path', required=True, help='Path to the data folder')
     parser.add_argument('--record', default='', help='Path to the record folder if different from default folder')
     viser_args = parser.parse_args()
 
